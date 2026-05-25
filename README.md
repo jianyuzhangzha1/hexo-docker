@@ -17,7 +17,6 @@ This is a Dockerized workflow for a Hexo blog. It follows the principle of **"st
 hexo-docker/
 ├── blog/                   # Core data directory (all your posts, themes, and configs)
 ├── docker-compose.yml      # Core runtime environment configuration
-├── Dockerfile              # Custom Node image (pre-installed with ImageMagick)
 ├── setup_alias.sh          # Environment variable auto-configuration script
 ├── backup.sh               # 1-click backup script (anti-nesting edition)
 ├── restore.sh              # 1-click cross-machine restore (auto-handles UID/GID)
