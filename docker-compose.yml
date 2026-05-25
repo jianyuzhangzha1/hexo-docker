@@ -1,0 +1,21 @@
+services:
+  hexo-dev:
+    #  Node LTS version
+    image: node:22-alpine
+    container_name: hexo-dev
+    # raspberry pi default user, will be changed when restore
+    user: "1000:1000"
+    working_dir: /app
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./blog:/app
+      # cache, to boost the load process
+      - npm_cache:/root/.npm
+    environment:
+      # China time zone, should be modified by user
+      - TZ=Asia/Shanghai
+    command: sh -c "npm install && npx hexo server -i 0.0.0.0"
+
+volumes:
+  npm_cache:
