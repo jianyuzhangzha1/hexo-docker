@@ -1,0 +1,230 @@
+# Site identity and visual overrides for Hexo Theme Fluid.
+# Keep this file focused: only override the parts that define the blog's voice.
+
+favicon: /img/fluid.png
+apple_touch_icon: /img/fluid.png
+
+force_https: false
+
+dark_mode:
+  enable: true
+  default: auto
+
+color:
+  body_bg_color: "#F4F2EE"
+  body_bg_color_dark: "#171A1D"
+  navbar_bg_color: "#263238"
+  navbar_bg_color_dark: "#15191C"
+  navbar_text_color: "#F7F4EF"
+  navbar_text_color_dark: "#E7E2DA"
+  subtitle_color: "#F7F4EF"
+  subtitle_color_dark: "#E7E2DA"
+  text_color: "#2F3437"
+  text_color_dark: "#D7D4CE"
+  sec_text_color: "#6B7280"
+  sec_text_color_dark: "#A7A29A"
+  board_color: "#FFFFFF"
+  board_color_dark: "#22272B"
+  post_text_color: "#2F3437"
+  post_text_color_dark: "#D7D4CE"
+  post_heading_color: "#1F2933"
+  post_heading_color_dark: "#EFEAE2"
+  post_link_color: "#315E72"
+  post_link_color_dark: "#83B6C8"
+  link_hover_color: "#8A4B3A"
+  link_hover_color_dark: "#D39B86"
+  link_hover_bg_color: "#EFEAE2"
+  link_hover_bg_color_dark: "#30363B"
+  line_color: "#E2DED6"
+  line_color_dark: "#3C444A"
+  scrollbar_color: "#B6B0A7"
+  scrollbar_color_dark: "#687076"
+  scrollbar_hover_color: "#8E877D"
+  scrollbar_hover_color_dark: "#8D969D"
+
+font:
+  font_size: 16px
+  font_family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Helvetica Neue", Arial, sans-serif
+  letter_spacing: 0
+  code_font_size: 86%
+
+custom_css:
+  - /css/bamao-fluid.css
+
+fun_features:
+  typing:
+    enable: false
+  anchorjs:
+    enable: true
+    placement: left
+    visible: hover
+  progressbar:
+    enable: true
+    height_px: 2
+    color: "#8A4B3A"
+
+navbar:
+  blog_title: "bamao logs"
+  ground_glass:
+    enable: false
+  menu:
+    - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
+    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    - { key: "category", name: "Categories", link: "/categories/", icon: "iconfont icon-category-fill" }
+    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+
+search:
+  enable: true
+  path: /local-search.xml
+  generate_path: /local-search.xml
+  field: post
+  content: true
+
+banner:
+  random_img: false
+  parallax: true
+  width_height_ratio: 1.4
+
+scroll_down_arrow:
+  enable: true
+  banner_height_limit: 80
+  scroll_after_turning_page: true
+
+scroll_top_arrow:
+  enable: true
+
+footer:
+  content: '
+    <span>bamao logs</span>
+    <span class="footer-separator">/</span>
+    <span>Security architecture, AI security, and field notes.</span>
+  '
+  statistics:
+    enable: false
+  beian:
+    enable: false
+
+index:
+  banner_img: /images/2025/tokyo/6_tokyo_university_historic_building.jpg
+  banner_img_height: 82
+  banner_mask_alpha: 0.48
+  slogan:
+    enable: true
+    text: "Security architecture, AI security, and travel notes from a long-running engineer."
+  auto_excerpt:
+    enable: true
+  post_url_target: _self
+  post_meta:
+    date: true
+    category: true
+    tag: true
+  post_sticky:
+    enable: true
+
+post:
+  banner_img: /images/2025/tokyo/6_tokyo_university_historic_building.jpg
+  banner_img_height: 52
+  banner_mask_alpha: 0.55
+  default_index_img:
+  meta:
+    author:
+      enable: false
+    date:
+      enable: true
+      format: "YYYY-MM-DD"
+    wordcount:
+      enable: true
+    min2read:
+      enable: true
+      awl: 2
+      wpm: 80
+    views:
+      enable: false
+  updated:
+    enable: true
+    date_format: "YYYY-MM-DD"
+    relative: false
+    note_class: light
+  category_bar:
+    enable: true
+    specific: true
+    placement: left
+    post_order_by: "-date"
+    post_limit: 8
+  toc:
+    enable: true
+    expand_all: false
+    placement: right
+    headingSelector: "h2,h3,h4"
+    collapseDepth: 2
+  copyright:
+    enable: true
+    license: "BY-NC-SA"
+    author:
+      enable: true
+    post_date:
+      enable: true
+      format: "YYYY-MM-DD"
+    update_date:
+      enable: false
+  prev_next:
+    enable: true
+  image_caption:
+    enable: true
+  image_zoom:
+    enable: true
+  comments:
+    enable: false
+
+archive:
+  banner_img: /images/2025/tokyo/6_tokyo_university_historic_building.jpg
+  banner_img_height: 46
+  banner_mask_alpha: 0.55
+
+category:
+  enable: true
+  banner_img: /images/2025/tokyo/6_tokyo_university_historic_building.jpg
+  banner_img_height: 46
+  banner_mask_alpha: 0.55
+  order_by: "-length"
+  collapse_depth: 1
+  post_order_by: "-date"
+  post_limit: 12
+
+tag:
+  enable: true
+  banner_img: /images/2025/tokyo/6_tokyo_university_historic_building.jpg
+  banner_img_height: 46
+  banner_mask_alpha: 0.55
+  tagcloud:
+    min_font: 15
+    max_font: 28
+    unit: px
+    start_color: "#7A8693"
+    end_color: "#315E72"
+
+about:
+  enable: true
+  banner_img: /images/2025/tokyo/6_tokyo_university_historic_building.jpg
+  banner_img_height: 50
+  banner_mask_alpha: 0.55
+  avatar: /images/2025/Zushi/me_on_the_beach.jpg
+  name: "Zhang Jianyu"
+  intro: "Security architect focused on cloud, identity, AI security, and practical governance."
+  icons: []
+
+page:
+  banner_img: /images/2025/tokyo/6_tokyo_university_historic_building.jpg
+  banner_img_height: 46
+  banner_mask_alpha: 0.55
+
+page404:
+  enable: true
+  banner_img: /images/2025/tokyo/6_tokyo_university_historic_building.jpg
+  banner_img_height: 70
+  banner_mask_alpha: 0.6
+  redirect_delay: 5000
+
+links:
+  enable: false
