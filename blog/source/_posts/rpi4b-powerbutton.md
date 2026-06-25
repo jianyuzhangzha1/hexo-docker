@@ -5,7 +5,7 @@ tags:
     - DIY
     - raspberry pi
 categories:
-    - DIY
+    - 03 DIY
 index_img: /images/2026/rpi4withpowerbutton.jpg
 banner_img: /images/2026/rpi4withpowerbutton.jpg
 ---

@@ -8,7 +8,7 @@ tags:
     - OWASP
     - LLM
 categories:
-    - Tech Insights
+    - 02 Daily Thoughts
 ---
 
 ### -- What’s New, Amplified, and Diminished

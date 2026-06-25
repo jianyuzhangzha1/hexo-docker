@@ -187,7 +187,7 @@ category:
   banner_img: /images/2025/tokyo/6_tokyo_university_historic_building.jpg
   banner_img_height: 46
   banner_mask_alpha: 0.55
-  order_by: "-length"
+  order_by: "name"
   collapse_depth: 1
   post_order_by: "-date"
   post_limit: 12

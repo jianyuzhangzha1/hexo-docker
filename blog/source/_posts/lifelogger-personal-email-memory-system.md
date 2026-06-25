@@ -9,7 +9,7 @@ tags:
   - SQLite
   - Personal Knowledge Base
 categories:
-  - DIY
+  - 03 DIY
 index_img: /images/2026/diy/lifelogger-email-memory-hero.png
 banner_img: /images/2026/diy/lifelogger-email-memory-hero.png
 ---

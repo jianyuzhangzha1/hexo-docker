@@ -6,7 +6,7 @@ tags:
     - japan
     - 2025
 categories:
-    - Life Travel Shopping
+    - 05 Life Travel and Shopping
 index_img: /images/2025/tokyo/6_tokyo_university_historic_building.jpg
 banner_img: /images/2025/tokyo/6_tokyo_university_historic_building.jpg
 ---

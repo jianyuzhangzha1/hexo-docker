@@ -9,7 +9,7 @@ tags:
     - Kubernetes
     - Vector Database
 categories:
-    - Tech Insights
+    - 02 Daily Thoughts
 index_img: /images/2026/research/layered-ai-privacy-filter.png
 banner_img: /images/2026/research/layered-ai-privacy-filter.png
 ---

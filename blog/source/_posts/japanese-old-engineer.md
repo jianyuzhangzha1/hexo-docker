@@ -7,7 +7,7 @@ tags:
     - work
     - automobile
 categories:
-    - Japan Workplace
+    - 04 Careers and Japan Cultures
 ---
 
 Heard a news from social media:

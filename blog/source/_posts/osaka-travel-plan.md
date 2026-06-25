@@ -6,7 +6,7 @@ tags:
     - osaka
     - 2026
 categories:
-    - Life Travel Shopping
+    - 05 Life Travel and Shopping
 ---
 
 At the end of June, my daughter will finish her high school entrance exam and can finally relax. The whole family is so nervous, and we can plan our third trip to Japan (secretly, don't let her get distracted).

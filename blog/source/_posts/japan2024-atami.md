@@ -7,7 +7,7 @@ tags:
     - family
     - 2024
 categories:
-    - Life Travel Shopping
+    - 05 Life Travel and Shopping
 index_img: /images/2024/atami_tower.jpg
 banner_img: /images/2024/atami_tower.jpg
 ---

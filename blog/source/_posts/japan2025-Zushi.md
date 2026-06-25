@@ -7,7 +7,7 @@ tags:
     - sea
     - 2025
 categories:
-    - Life Travel Shopping
+    - 05 Life Travel and Shopping
 index_img: /images/2025/Zushi/Zushi_beach.jpg
 banner_img: /images/2025/Zushi/Zushi_beach.jpg
 ---

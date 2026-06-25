@@ -74,12 +74,11 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  Tech Insights: tech-insights
-  Daily Thoughts: daily-thoughts
-  Japan Workplace: japan-workplace
-  Learning: learning
-  DIY: diy
-  Life Travel Shopping: life-travel-shopping
+  01 Tech Insights: tech-insights
+  02 Daily Thoughts: daily-thoughts
+  03 DIY: diy
+  04 Careers and Japan Cultures: japan-workplace
+  05 Life Travel and Shopping: life-travel-shopping
 tag_map:
 
 #category_generator:

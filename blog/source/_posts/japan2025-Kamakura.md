@@ -6,7 +6,7 @@ tags:
     - japan
     - 2025
 categories:
-    - Life Travel Shopping
+    - 05 Life Travel and Shopping
 ---
 Kamakura, the inspiration for the manga/anime Slam Dunk, is a popular tourist destination, and you can then go down to the beach. I visited Enoshima, collected seashells; it's quite a distance from Asakusa by train, but the trip was much cheaper than staying at the hotel.
 

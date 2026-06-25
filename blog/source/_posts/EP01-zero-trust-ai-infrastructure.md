@@ -9,7 +9,7 @@ tags:
   - AI-RAN
   - Agent
 categories:
-  - Tech Insights
+  - 01 Tech Insights
 index_img: /images/2025/ai-ran-6g/ep01/ep01-linkedin-cover-zero-trust-ai-infra.png
 banner_img: /images/2025/ai-ran-6g/ep01/ep01-linkedin-cover-zero-trust-ai-infra.png
 ---

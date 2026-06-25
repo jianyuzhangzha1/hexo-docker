@@ -6,7 +6,7 @@ tags:
     - japan
     - 2024
 categories:
-    - Life Travel Shopping
+    - 05 Life Travel and Shopping
 ---
 
 ### Tokyo city tour
