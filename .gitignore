@@ -1,0 +1,25 @@
+# Local credentials and environment
+id_rsa
+id_*
+.env
+*.pem
+*.key
+
+# Local backups and deployment scratch data
+*.tar.gz
+*.tgz
+remote-work/
+codex-backups/
+
+# Hexo dependencies and generated output
+blog/node_modules/
+blog/public/
+blog/db.json
+blog/.deploy_git/
+
+# Logs and editor/OS files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
