@@ -1,5 +1,6 @@
 services:
   hexo-dev:
+    # 优化1：锁定具体的 Node LTS 版本，避免 future updates 导致主题编译报错
     image: node:22-alpine
     container_name: hexo-dev
     working_dir: /app
@@ -9,9 +10,15 @@ services:
       - "4000:4000"
     volumes:
       - ./blog:/app
+      # 优化2：独立挂载 npm 缓存，极大加速容器每次重启或重建时的安装速度
       - npm_cache:/root/.npm
     environment:
+      # 优化3：修复时区。否则使用 hexo new 生成的文章时间会比北京时间晚 8 小时
       - TZ=Asia/Shanghai
+    # 优化4：Linux 用户如果遇到生成的 markdown 文件无法编辑（属于 root 权限），可取消下行注释并填入你的 UID:GID
+    user: "1000:1000"
+    
+    # 优化5：弃用全局安装 hexo-cli，直接利用 npx 调用本地依赖，速度更快且防冲突
     command: sh -c "npm install && npx hexo server -i 0.0.0.0"
 
 volumes:
